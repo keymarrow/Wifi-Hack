@@ -1,2 +1,2 @@
 # Wifi-Hack
-Few line that crack any Wifi-Password
+Few line of php that crack any Wifi-Password
