@@ -9,7 +9,7 @@
 
         $password = trim(fgets($mypwdfile));
 
-        exec("sudo nmcli d wifi connect 'MezaNine_NET' password $password ifname wlp1s0");
+        exec("sudo nmcli d wifi connect 'ENTER THE NAME OF WIFI YOU NEED TO CRACK' password $password ifname wlp1s0");
 
         exec("sudo nmcli networking connectivity > connectivity.txt");    
         
